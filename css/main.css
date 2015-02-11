@@ -17,7 +17,9 @@
 }
 
 header {
-	background-color: lightblue;
+	background: linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
+  background: -webkit-linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
+  background: -o-linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
 }
 
 ul {
