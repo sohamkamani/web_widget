@@ -1,25 +1,17 @@
-
-
 .main {
 	margin: 0 auto;
 	width: 310px;
 	box-shadow: 0px 7px 0px -1px rgb(185, 185, 188), 0px 14px 0px -3px rgb(212, 210, 211), 0px 21px 0px -5px rgb(237, 237, 239);
 	border: 1px solid black;
-	border-radius: 5px;
+	border-radius: 5px 5px 0px 0px;
 	margin-top: 20px;
-    background: #eee;
-    box-shadow:
-        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
-        0 10px 0 -5px #eee, /* The second layer */
-        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
-        0 20px 0 -10px #eee, /* The third layer */
-        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
 }
 
 header {
 	background: linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
   background: -webkit-linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
   background: -o-linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
+  color: rgb(255, 255, 255);
 }
 
 ul {
@@ -32,10 +24,6 @@ li {
 	list-style: none;
 	padding: 14px;
 	border-bottom: 1px solid rgb(206, 214, 223);
-}
-
-div ul li:nth-child(6) {
-	color: red;
 }
 
 button {
@@ -75,7 +63,7 @@ input[type=checkbox]:checked +label>i.i2 {
     display: inline;
 }
 .fa-circle {
-    color: red;
+   	color: red;
 }
 .fa-check-circle-o {
     color: green;
@@ -99,16 +87,12 @@ input[type=checkbox]:checked +label>i.i2 {
 
 li span {
 	margin-left: 20px;
-	padding: 16px;
-	border-left: 1px solid red;
-}
-
-li span:last-child {
-	
 	padding: 16px 16px 22px 16px;
-	border-left: 1px solid red;
+	border-left: 1px solid rgb(250, 210, 209);
 }
 
 .list-items #cb1 {
 	border-right: 1px solid red;
 }
+
+.fa-check-circle-o
