@@ -1,0 +1,36 @@
+section {
+	margin: 0 auto;
+	width: 350px;
+	box-shadow: 0px 7px 0px -1px rgb(185, 185, 188), 0px 14px 0px -3px rgb(212, 210, 211), 0px 21px 0px -5px rgb(237, 237, 239);
+}
+
+header {
+	background-color: lightblue;
+}
+
+header ul li {
+	text-align: center;
+	list-style: none;
+	padding: 15px 0px;
+	display: inline;
+}
+
+.left-arrow {
+	margin-left: -37px;
+}
+
+.header-text {
+	margin-left: 70px;
+}
+
+.right-arrow {
+	margin-left: 85px;
+}
+
+li {
+	list-style: none;
+}
+
+div ul li:nth-child(6) {
+	color: red;
+}
