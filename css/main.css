@@ -1,12 +1,14 @@
+body {
+	background: url('../back.png') no-repeat;
+	background-size: cover;
+}
+
 .main {
 	margin: 0 auto;
 	width: 310px;
 	border-radius: 5px 5px 0px 0px;
 	margin-top: 20px;
 	position: relative;
-	background: -webkit-box-shadow: 3px 3px 30px 0px rgba(50, 50, 50, 0.42);
-	-moz-box-shadow:    3px 3px 30px 0px rgba(50, 50, 50, 0.42);
-	box-shadow:         3px 3px 30px 0px rgba(50, 50, 50, 0.42);;
 }
 
 header {
@@ -118,7 +120,7 @@ li span input {
 
 .stack-1 {
 	margin: 0 auto;
-	background-color: rgb(246, 246, 246,);
+	background-color: rgb(246, 246, 246);
 	width: 300px;
 	height: 4px;
 	border: 1px solid rgba(149, 151, 156, 0.3);
@@ -129,7 +131,7 @@ li span input {
 	margin: 0 auto;
 	background-color: rgb(246, 246, 246);
 	width: 290px;
-	height: 4px;
+	height: 3px;
 	border: 1px solid rgba(149, 151, 156, 0.3);
 	border-top: none;
 }
@@ -138,7 +140,7 @@ li span input {
 	margin: 0 auto;
 	background-color: rgb(246, 246, 246);
 	width: 280px;
-	height: 4px;
+	height: 3px;
 	border: 1px solid rgba(149, 151, 156, 0.3);
 	border-top: none;
 }
@@ -149,10 +151,22 @@ li span input {
 	margin-left: 150px; 
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	background-color: transparent;
 	border-bottom: 10px solid rgb(88, 109, 153);
 	position: absolute;
 	top: -10px;
 }
 
+.red-line-1, .red-line-2, .red-line-3 {
+	border-left: 1px solid rgb(250, 210, 209);
+	margin-left: 46px;
+	height: 4px;
+}
+
+.red-line-2 {
+	margin-left: 43px;
+}
+
+.red-line-3 {
+	margin-left: 40px;
+}
 
