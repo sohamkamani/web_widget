@@ -22,5 +22,14 @@ input[type=checkbox]:checked +label>i.i2 {
     color: red;
 }
 .fa-check-circle-o {
+    padding-left: 3px;
     color: green;
+}
+.circle{
+  height: 18px;
+  width: 18px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
 }
