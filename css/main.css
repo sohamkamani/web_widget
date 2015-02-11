@@ -37,9 +37,9 @@ header button {
 	border: none;
 	border-radius: 5px;
 	background-color: transparent;
-  -webkit-box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
-  -moz-box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
-  box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
+	-webkit-box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
+	-moz-box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
+	box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
 }
 
 .left-arrow {
@@ -101,7 +101,7 @@ input[type=checkbox]:checked + label>span {
 }
 
 .bell-grey {
-	col
+	color: rgb(184, 184, 184);
 }
 
 .i-bell {
@@ -149,9 +149,9 @@ li span input {
 	height: 3px;
 	border: 1px solid rgba(149, 151, 156, 0.3);
 	border-top: none;
-  -webkit-box-shadow: 0px 2px 3px 2px black;
-  -moz-box-shadow: 0px 2px 3px 2px black;
-  box-shadow: 0px 2px 3px 2px black;
+	-webkit-box-shadow: 0px 2px 3px 2px black;
+	-moz-box-shadow: 0px 2px 3px 2px black;
+	box-shadow: 0px 2px 3px 2px black;
 }
 
 .arrow-up {
@@ -200,8 +200,8 @@ li span input {
 	background: -webkit-linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
 	background: -o-linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
 	-webkit-box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
-  -moz-box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
-  box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
+	-moz-box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
+	box-shadow: 0px 0px 0px 2px rgba(75, 82, 120, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
 }
 
 .fa-plus {
@@ -211,16 +211,17 @@ li span input {
 
 .fa-trash-o {
 	margin-top: 3px;
+	color: rgba(156, 156, 153, .7);
 }
 
 .stack-4 button:last-child {
-	margin-top: 6px;
+	margin-top: 5px;
 	background: transparent;
 	border: none;
 	border-radius: 5px;
 	-webkit-box-shadow: 0px 0px 0px 2px rgba(25, 26, 28, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
-  -moz-box-shadow: 0px 0px 0px 2px rgba(25, 26, 28, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
-  box-shadow: 0px 0px 0px 2px rgba(25, 26, 28, 1), inset 0px 3px 0px -1px rgba(123, 123, 121, 1), 0px 3px 0px 1px rgba(102, 102, 99, 1);
+	-moz-box-shadow: 0px 0px 0px 2px rgba(25, 26, 28, 1), inset 0px 3px 0px -1px rgba(159, 174, 202, 1), 0px 3px 0px 1px rgba(101, 122, 168, 1);
+	box-shadow: 0px 0px 0px 2px rgba(25, 26, 28, 1), inset 0px 3px 0px -1px rgba(123, 123, 121, 1), 0px 3px 0px 1px rgba(102, 102, 99, 1);
 }
 
 
