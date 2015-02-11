@@ -7,6 +7,16 @@ section {
 	margin-top: 20px;
 }
 
+section {
+    background: #eee;
+    box-shadow:
+        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
+        0 10px 0 -5px #eee, /* The second layer */
+        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
+        0 20px 0 -10px #eee, /* The third layer */
+        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
+}
+
 header {
 	background-color: lightblue;
 }
@@ -16,9 +26,10 @@ ul {
 	padding: 0px;
 }
 
+
 li {
 	list-style: none;
-	padding: 15px;
+	padding: 14px;
 	border-bottom: 1px solid rgb(206, 214, 223);
 }
 
@@ -34,11 +45,11 @@ button {
 }
 
 .left-arrow {
-	margin: 10px 44px 10px 10px;
+	margin: 8px 44px 10px 8px;
 }
 
 .right-arrow {
-	margin: 10px 0px 0px 50px;
+	margin: 8px 0px 8px 52px ;
 }
 
 .fa-play {
@@ -83,4 +94,20 @@ input[type=checkbox]:checked +label>i.i2 {
 
 .i-bell {
 	float: right;
+}
+
+li span {
+	margin-left: 20px;
+	padding: 16px;
+	border-left: 1px solid red;
+}
+
+li span:last-child {
+	
+	padding: 16px 16px 22px 16px;
+	border-left: 1px solid red;
+}
+
+.list-items #cb1 {
+	border-right: 1px solid red;
 }
