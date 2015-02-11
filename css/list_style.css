@@ -1,0 +1,35 @@
+.sample-list li {
+    list-style-type: none;
+}
+p:before {
+    content: "seee";
+}
+[type="checkbox"] {
+    float: none;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+i {
+    margin-right: 20px;
+}
+input[type=checkbox] +label>i.i2 {
+    display: none;
+}
+input[type=checkbox]:checked +label>i.i1 {
+    display: none;
+}
+input[type=checkbox]:checked +label>i.i2 {
+    display: inline;
+}
+.fa-circle {
+    color: red;
+}
+.fa-check-circle-o {
+    color: green;
+}

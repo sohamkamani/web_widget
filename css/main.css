@@ -4,6 +4,7 @@ section {
 	box-shadow: 0px 7px 0px -1px rgb(185, 185, 188), 0px 14px 0px -3px rgb(212, 210, 211), 0px 21px 0px -5px rgb(237, 237, 239);
 	border: 1px solid black;
 	border-radius: 5px;
+	margin-top: 20px;
 }
 
 header {
@@ -11,12 +12,14 @@ header {
 }
 
 ul {
-	margin: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 li {
 	list-style: none;
 	padding: 15px;
+	border-bottom: 1px solid rgb(206, 214, 223);
 }
 
 div ul li:nth-child(6) {
@@ -24,6 +27,60 @@ div ul li:nth-child(6) {
 }
 
 button {
-	padding: 0px;
+	padding: 12px 16px;
 	border: none;
+	border-radius: 5px;
+	background-color: rgba(69, 80, 120, 1);
+}
+
+.left-arrow {
+	margin: 10px 44px 10px 10px;
+}
+
+.right-arrow {
+	margin: 10px 0px 0px 50px;
+}
+
+.fa-play {
+	color: rgb(255, 255, 255);
+}
+
+input[type="text"]{
+  font-style: italic;
+  border-color: solid rgb(175, 175, 175);
+  background-color: rgb(229, 229, 229);
+  padding: 5px;
+  width: 200px;
+}
+
+input[type=checkbox] +label>i.i2 {
+    display: none;
+}
+input[type=checkbox]:checked +label>i.i1 {
+    display: none;
+}
+input[type=checkbox]:checked +label>i.i2 {
+    display: inline;
+}
+.fa-circle {
+    color: red;
+}
+.fa-check-circle-o {
+    color: green;
+}
+
+[type="checkbox"] {
+    float: none;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.i-bell {
+	float: right;
 }
