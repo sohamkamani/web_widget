@@ -53,17 +53,21 @@ input[type="text"]{
   width: 200px;
 }
 
-input[type=checkbox] +label>i.i2 {
-    display: none;
-}
-input[type=checkbox]:checked +label>i.i1 {
+input[type=checkbox] +label>i.i1 {
     display: none;
 }
 input[type=checkbox]:checked +label>i.i2 {
+    display: none;
+}
+input[type=checkbox]:checked +label>i.i1 {
     display: inline;
 }
+
+input[type=checkbox]:checked + label>span {
+    text-decoration: line-through;
+}
 .fa-circle {
-   	color: red;
+    color: #dddddd;
 }
 .fa-check-circle-o {
     color: green;
@@ -80,6 +84,7 @@ input[type=checkbox]:checked +label>i.i2 {
     position: absolute;
     width: 1px;
 }
+
 
 .i-bell {
 	float: right;
