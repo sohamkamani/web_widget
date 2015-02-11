@@ -32,7 +32,7 @@ li {
 	border-bottom: 1px solid rgb(206, 214, 223);
 }
 
-button {
+header button {
 	padding: 12px 16px;
 	border: none;
 	border-radius: 5px;
@@ -173,4 +173,29 @@ li span input {
 .red-line-3 {
 	margin-left: 40px;
 }
+
+.stack-4 {
+	background-color: rgb(54, 54, 52);
+	height: 83px;
+	width: 100px;
+	margin: 0 auto;
+	position: relative;
+	top : -515px;
+	left: 180px;
+	z-index: -1;
+}
+
+.stack-4 button {
+	margin-left: 50px;
+	width: 30px;
+	height: 30px;
+}
+
+.stack-4 button:last-child {
+	margin-top: -4px;
+	background: transparent;
+	border: none;
+	border-radius: 5px;
+}
+
 
