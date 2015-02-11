@@ -1,4 +1,4 @@
-input{
+input[type="text"]{
   font-style: italic;
   border-color: solid rgb(175, 175, 175);
   background-color: rgb(229, 229, 229);
