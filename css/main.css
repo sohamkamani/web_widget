@@ -1,6 +1,7 @@
 body {
 	background: url('../back.png') no-repeat;
 	background-size: cover;
+	font-family: 'Oxygen', sans-serif;
 }
 
 .main {
@@ -35,7 +36,8 @@ button {
 	padding: 12px 16px;
 	border: none;
 	border-radius: 5px;
-	background-color: transparent;
+	background: transparent;
+	
 }
 
 .left-arrow {
@@ -43,7 +45,7 @@ button {
 }
 
 .right-arrow {
-	margin: 8px 0px 8px 52px ;
+	margin: 8px 0px 8px 74px ;
 }
 
 .fa-play {
