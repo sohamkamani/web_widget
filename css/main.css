@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .main {
     margin: 0 auto;
     width: 310px;
@@ -41,7 +45,7 @@ input[type="text"] {
     border-color: solid rgb(175, 175, 175);
     background-color: rgb(229, 229, 229);
     padding: 5px;
-    width: 200px;
+    width: 150px;
 }
 input[type=checkbox] +label .circle {
     display: none;
@@ -52,7 +56,7 @@ input[type=checkbox]:checked +label .circle {
 input[type=checkbox] +label .circle-none {
     display: inline;
 }
-input[type=checkbox]:checked +label .circle-none{
+input[type=checkbox]:checked +label .circle-none {
     display: none;
 }
 input[type=checkbox]:checked + label>span.writing {
@@ -68,13 +72,13 @@ input[type=checkbox]:checked + label>span.writing {
     
     background: linear-gradient(red, blue);
 }
-.fa-check {
+.circle {
     font-size: 0.7em;
     color: rgb(60, 120, 56);
 }
-
-.circle-none{
-  color: transparent;
+.circle-none {
+    font-size: 0.7em;
+    color: transparent;
 }
 [type="checkbox"] {
     float: none;
@@ -90,7 +94,7 @@ input[type=checkbox]:checked + label>span.writing {
 .i-bell {
     float: right;
 }
-li span {
+li span.writing {
     margin-left: 20px;
     padding: 15px 16px 22px 16px;
     border-left: 1px solid rgb(250, 210, 209);
@@ -105,31 +109,29 @@ li span input {
 .fa-bell-o {
     color: #79839C;
 }
-
 .circle:before {
-  display: inline;
     width: 120px;
     height: 120px;
     padding: 2.5px;
-    background: linear-gradient(135deg ,rgb(255,255,255) 24%,rgb(88,182,67));
-    -moz-border-radius: 70px;
+    background: linear-gradient(135deg, rgb(255, 255, 255) 24%, rgb(88, 182, 67));
+    -moz-border-radius: 170px;
     -webkit-border-radius: 170px;
     border-radius: 170px;
     border: 2px solid rgb(75, 148, 70);
-    box-shadow: inset 0px 0px 5px rgb(105,197,87),0px 0px 5px #4E934A;
+    box-shadow: inset 0px 0px 5px rgb(105, 197, 87), 0px 0px 5px #4E934A;
 }
 .circle-none:before {
     width: 120px;
     height: 120px;
     padding: 2.5px;
-    background: transparent;
-    -moz-border-radius: 70px;
+    background: linear-gradient(135deg, rgb(255, 255, 255) 24%, rgb(208, 208, 208));
+    -moz-border-radius: 170px;
     -webkit-border-radius: 170px;
-    border-radius: 170px;
-    border: transparent;
-    box-shadow: inset 0px 0px 5px transparent,0px 0px 5px transparent;
+    border-radius: 50%;
+    border: 2px solid rgba(0,0,0,.2);
+    
+    box-shadow: inset 0px 0px 5px rgb(208), 0px 0px 5px rgb(208);
 }
-
 .circ {
     width: 120px;
     height: 120px;
