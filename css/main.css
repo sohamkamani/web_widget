@@ -1,36 +1,29 @@
 section {
 	margin: 0 auto;
-	width: 350px;
+	width: 310px;
 	box-shadow: 0px 7px 0px -1px rgb(185, 185, 188), 0px 14px 0px -3px rgb(212, 210, 211), 0px 21px 0px -5px rgb(237, 237, 239);
+	border: 1px solid black;
+	border-radius: 5px;
 }
 
 header {
 	background-color: lightblue;
 }
 
-header ul li {
-	text-align: center;
-	list-style: none;
-	padding: 15px 0px;
-	display: inline;
-}
-
-.left-arrow {
-	margin-left: -37px;
-}
-
-.header-text {
-	margin-left: 70px;
-}
-
-.right-arrow {
-	margin-left: 85px;
+ul {
+	margin: none;
 }
 
 li {
 	list-style: none;
+	padding: 15px;
 }
 
 div ul li:nth-child(6) {
 	color: red;
+}
+
+button {
+	padding: 0px;
+	border: none;
 }
