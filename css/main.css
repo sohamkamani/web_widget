@@ -183,12 +183,21 @@ li span input {
 	top : -515px;
 	left: 180px;
 	z-index: -1;
+	border-radius: 6px;
 }
 
 .stack-4 button {
 	margin-left: 50px;
 	width: 30px;
 	height: 30px;
+	border: none;
+	background: linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
+	background: -webkit-linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
+	background: -o-linear-gradient(rgb(97,113,154), rgb(74, 82, 119));
+}
+
+.fa-plus {
+	color: rgb(255, 255, 255);
 }
 
 .stack-4 button:last-child {
