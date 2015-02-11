@@ -49,7 +49,7 @@ input[type="text"]{
   font-style: italic;
   border-color: solid rgb(175, 175, 175);
   background-color: rgb(229, 229, 229);
-  padding: 5px;
+  padding: px;
   width: 200px;
 }
 
@@ -87,8 +87,13 @@ input[type=checkbox]:checked +label>i.i2 {
 
 li span {
 	margin-left: 20px;
-	padding: 16px 16px 22px 16px;
+	padding: 15px 16px 22px 16px;
 	border-left: 1px solid rgb(250, 210, 209);
+}
+
+li span input {
+	border-radius: 3px;
+	padding: 5px 0px;
 }
 
 .list-items #cb1 {
