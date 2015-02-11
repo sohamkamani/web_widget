@@ -28,9 +28,10 @@ ul {
 }
 li {
 	list-style: none;
-	padding: 14px;
+	padding: 14px 10px;
 	border-bottom: 1px solid rgb(206, 214, 223);
 }
+
 header button {
 	padding: 12px 16px;
 	border: none;
@@ -56,8 +57,8 @@ input[type="text"] {
 	font-style: italic;
 	border-color: solid rgb(175, 175, 175);
 	background-color: rgb(229, 229, 229);
-	padding: 5px;
-	width: 150px;
+	padding: 10px 0px 10px 9px;
+	width: 198px;
 }
 input[type=checkbox] +label .circle {
 	display: none;
